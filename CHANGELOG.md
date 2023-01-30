@@ -1,0 +1,1 @@
+30.01 - Spring scope (Singleton, prototype)

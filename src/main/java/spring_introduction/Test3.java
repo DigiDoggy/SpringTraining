@@ -12,7 +12,11 @@ public class Test3 {
         //Pet pet = context.getBean("myPet", Pet.class);
 
         Person person = context.getBean("myPerson", Person.class);
+
         person.callYourPet();
+
+        System.out.println(person.getSurname());
+        System.out.println(person.getAge());
         // закрытие обязательно
         context.close();
 
